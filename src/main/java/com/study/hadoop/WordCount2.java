@@ -83,6 +83,17 @@ public class WordCount2 extends Configured implements Tool {
             output.collect(key, new IntWritable(sum));
         }
     }
+    public static class MyPartition implements Partitioner<Text,IntWritable>{
+        @Override
+        public int getPartition(Text key, IntWritable value, int partitionNumber) {
+            return 0;
+        }
+
+        @Override
+        public void configure(JobConf jobConf) {
+
+        }
+    }
 
     public int run(String[] args) throws Exception {
         JobConf conf = new JobConf(getConf(), WordCount.class);
@@ -92,6 +103,7 @@ public class WordCount2 extends Configured implements Tool {
         conf.setOutputValueClass(IntWritable.class);
 
         conf.setMapperClass(Map.class);
+        //conf.setPartitionerClass(MyPartition.class);
         conf.setCombinerClass(Reduce.class);
         conf.setReducerClass(Reduce.class);
 
