@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758ab8e6-bc56-4c40-ab54-ebf922660cf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/WordCountPartition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/MR1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/MR2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/Mapper1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/Mapper2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/Reducer1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/Reducer2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hadoopstudy/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../hadoopstudy/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hadoopstudy/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hadoopstudy/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hadoopstudy/hadoopstudy.iml" afterPath="$PROJECT_DIR$/../hadoopstudy/hadoopstudy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hadoopstudy/pom.xml" afterPath="$PROJECT_DIR$/../hadoopstudy/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/WordCount2.java" afterPath="$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/WordCount2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../hadoopstudy/out/" />
     <ignored path="$PROJECT_DIR$/../hadoopstudy/target/" />
@@ -105,8 +93,8 @@
       <file leaf-file-name="MR2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/MR2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="455">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -532,7 +520,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519281507208</updated>
-      <workItem from="1519281509167" duration="45808000" />
+      <workItem from="1519281509167" duration="45864000" />
     </task>
     <task id="LOCAL-00001" summary="sdf">
       <created>1519293230205</created>
@@ -541,11 +529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519293230205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sdf">
+      <created>1519472421286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519472421286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45808000" />
+    <option name="totallyTimeSpent" value="45864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -563,7 +558,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -725,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../hadoopstudy/src/main/java/com/study/hadoop/matrix/MR2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="455">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
